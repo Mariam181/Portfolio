@@ -1,0 +1,83 @@
+/*About me*/
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.rightText, .photo, .leftText {
+    float: left;
+    width: 33%;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Second image */
+.background_2 {
+    background-image: url("../img/banner2.jpg");
+    min-height: 400px;
+}
+
+/*Projects*/
+.subtitles {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.texts {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Third image */
+.background_3 {
+    background-image: url("../img/banner2.jpg");
+    min-height: 400px;
+}
+
+
+
+/* Parallax */
+@media only screen and (max-width: 1024px) {
+    .background_1, .background_2, .background_3 {
+        background-attachment: scroll;
+    }
+}
+
+/* About */
+#about {
+font-size: 1.4em;
+}
+
+.skills {
+    margin-bottom: 200px;
+}
+
+.contact {
+    margin-bottom: 100px;
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
