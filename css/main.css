@@ -71,7 +71,11 @@ body {
   margin: 0 auto; }
 
 .about h2 {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
+
+.bg_about {
+  background-color: #6f04a7; }
 
 .rightText, .photo, .leftText {
   float: left;
