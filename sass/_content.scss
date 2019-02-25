@@ -2,11 +2,9 @@
 .about {
     width: 80%;
     margin: 0 auto;
-}
-
-.about h2 {
-    text-align: center;
-    margin: 0;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .bg_about {
@@ -30,19 +28,73 @@
 /* Second image */
 .background_2 {
     background-image: url("../img/banner2.jpg");
-    min-height: 400px;
+    min-height: 600px;
 }
 
 /*Projects*/
+#projects {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .subtitles {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 35px;
+    margin: 0;
+    font-weight: bold;
 }
 
 .texts {
     width: 60%;
     margin: 0 auto;
 }
+
+.texts p {
+    margin: 0;
+}
+
+.my_projects {
+    margin: 0 auto;
+    max-width: 60%;
+    text-align: center;
+}
+
+.projects_list {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.projects_list li + li {
+    margin-left: 40px;
+}
+
+.project {
+    list-style: none;
+    display: inline;
+}
+
+.project img {
+    max-width: 25%;
+    max-height: 30%;
+    margin-top: 40px;
+}
+
+.icons {
+    margin: 0;
+}
+.icon_link img {
+    max-width: 2%;
+}
+
+.icons li {
+    list-style: none;
+    display: inline;
+}
+
+.icons li + li {
+    margin-left: 308px;
+}
+
+
 
 /* Third image */
 .background_3 {
@@ -60,16 +112,28 @@
 }
 
 /* About */
-#about {
+/*#about {
 font-size: 1.4em;
-}
+}*/
 
 .skills {
     margin-bottom: 200px;
+    background-color: #6f04a7;
 }
 
 .contact {
     margin-bottom: 100px;
+}
+
+.email {
+    text-align: center;
+}
+
+.email p {
+    margin: 0;
+}
+.email img {
+    max-width: 25%;
 }
 
 
@@ -84,5 +148,42 @@ font-size: 1.4em;
     clear: both;
 }
 
+/*Skills*/
+.skills {
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.my_skills {
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    padding-left: 214px;
+}
 
+.my_skills li {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.my_skills li p {
+    max-width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.my_skills li h2 {
+    margin: 0;
+}
+
+.my_skills li + li {
+    margin-left: 155px;
+}
+
+.skills_list {
+    width: 80%;
+    margin: 0 auto;
+}
