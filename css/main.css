@@ -107,9 +107,6 @@ body {
   padding-top: 30px;
   padding-bottom: 30px; }
 
-#projects h2 {
-  color: #6f04a7; }
-
 .subtitles {
   text-align: center;
   font-size: 35px;
@@ -197,7 +194,7 @@ body {
 .skills {
   color: #ffffff;
   padding-top: 30px;
-  /*padding-bottom: 30px;*/ }
+  padding-bottom: 30px; }
 
 .my_skills {
   margin: 0;
