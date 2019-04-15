@@ -107,6 +107,9 @@ body {
   padding-top: 30px;
   padding-bottom: 30px; }
 
+#projects h2 {
+  color: #6f04a7; }
+
 .subtitles {
   text-align: center;
   font-size: 35px;
@@ -168,7 +171,7 @@ body {
   background-color: #6f04a7; }
 
 .contact {
-  margin-bottom: 100px; }
+  background-color: #6f04a7; }
 
 .email {
   text-align: center; }
@@ -194,7 +197,7 @@ body {
 .skills {
   color: #ffffff;
   padding-top: 30px;
-  padding-bottom: 30px; }
+  /*padding-bottom: 30px;*/ }
 
 .my_skills {
   margin: 0;
@@ -223,8 +226,105 @@ body {
   width: 80%;
   margin: 0 auto; }
 
-.footer {
-  background-color: #6f04a7;
+/**GitHub Activity**/
+/*.github {
+    margin-bottom: 200px;
+    
+}
+
+.git--items{ 
+    text-align: initial;
+    background: #ffffff;
+    padding: 2%;
+    border-left: 3px solid red;
+    border-bottom: 1px solid red;
+    margin: 20px;
+    height: 90px;
+    width: 20%;
+    display: inline-block; 
+    &:hover{
+        background: red;
+        color: lightblue;
+        transition: 1.3s; 
+        opacity: 0.8;
+        a{
+            color: lightblue;
+        }
+    }
+}
+
+.git--items > p {
+    padding: 3px;
+}*/
+/**Form*/
+.formulario {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px; }
+
+.enviar {
+  text-align: center; }
+
+label {
+  font-size: 20px;
+  width: 100%;
+  display: block; }
+
+input, textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #6f04a7;
+  border-radius: 4px; }
+
+textarea {
   height: 200px; }
+
+input:focus, textarea:focus {
+  border: 1px solid white; }
+
+.send {
+  width: 24%;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #6f04a7;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  cursor: pointer; }
+
+.send:hover {
+  font-size: 30px;
+  font-weight: bold; }
+
+.formulario {
+  padding-bottom: 85px; }
+
+.enviar {
+  text-align: center; }
+
+.footer {
+  width: 100%;
+  background-color: #6f04a7;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.icons img {
+  width: 6%; }
+
+.icons {
+  list-style: none;
+  color: white;
+  margin-bottom: 20px; }
+
+.footer-list {
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 800px; }
 
 /*# sourceMappingURL=main.css.map */
